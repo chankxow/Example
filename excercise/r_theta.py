@@ -1,6 +1,6 @@
 import math
 
-r , theta = [float(e) for e in input("เติมค่า  x , y : ").split() ] #กำหนดตัวแปร r และ theta
+r , theta = [float(e) for e in input("เติมค่า  r,theta : ").split() ] #กำหนดตัวแปร r และ theta
 
 x = r*math.cos(theta) #กำหนดการหาค่า x
 y = r*math.sin(theta) #กำหนดการหาค่า y
